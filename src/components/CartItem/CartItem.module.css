@@ -1,0 +1,67 @@
+.itemCard {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+.spacer {
+    border-bottom: 1px solid #DDD;
+    margin: 10px 10px;
+}
+
+.image {
+    text-align: center;
+    margin: 0 10px;
+    float: left;
+    width: 22%;
+}
+.image img {
+    max-height: 180px;
+    max-width: 100%;
+}
+
+.productDetails {
+    float: left;
+    width: 40%;
+}
+
+.productTitle {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.productDescription {
+    font-weight: 400;
+    margin: 5px 20px 5px 0;
+}
+
+.productPrice {
+    float: left;
+    width: 10%;
+    padding-left: 15px;
+}
+
+.addRemoveMenu {
+    float: left;
+    width: 10%;
+}
+.btnAddRemove {
+    background-color: white;
+    border: 0 transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+.btnAddRemove:hover {
+    background-color: #ddd;
+}
+
+.span {
+    margin: 3px;
+}
+
+.productTotal {
+    float: left;
+    width: 10%;
+    padding-left: 15px;
+}

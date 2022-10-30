@@ -1,0 +1,48 @@
+.spacer {
+    border-bottom: 1px solid #DDD;
+    margin: 10px 10px;
+}
+
+.remove {
+    margin: 10px;
+}
+
+.subtotal {
+    float: right;
+    width: 12%;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.subtotalPrice {
+    float: right;
+    font-size: 18px;
+    width: 7%;
+}
+
+.checkoutBtn {
+    display: block;
+    float: right;
+    border: 0;
+    margin: 20px;
+    padding: 6px 25px;
+    background-color: #6b6;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.checkoutBtn:hover {
+    background-color: #494;
+}
+
+.remove {
+    margin-left: 20px;
+    float: left;
+    cursor: pointer;
+}
+.remove > div {
+    float: left;
+    padding-top: 12px;
+}

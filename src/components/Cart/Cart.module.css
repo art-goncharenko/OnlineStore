@@ -1,0 +1,40 @@
+h2 {
+    text-align: center;
+}
+
+.titles {
+    display: flex;
+    text-align: center;
+    color: grey;
+    padding: 5px 10px;
+}
+
+.productTitle {
+    flex-grow: 4;
+}
+
+.priceTitle {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.quantityTitle {
+    flex-grow: 1;
+}
+
+.totalTitle {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.emptyCart {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

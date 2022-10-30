@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    position: relative;
+    height: 60px;
+    background-color: paleturquoise;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Amazon-Ember-Medium';
+}
+@font-face {
+    font-family: 'Amazon-Ember-Medium';
+    src: local("Amazon-Ember-Medium.ttf");
+}
+
+.cartIcon {
+    display: flex;
+    margin: 35px;
+}
+
+.totalQuantity {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #8fcee5;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.totalPrice {
+    position: absolute;
+    top: 60%;
+    right: 65px;
+}

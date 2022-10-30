@@ -1,0 +1,35 @@
+.topCategory {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.spanCategory {
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.5s;
+    margin: 0 5px;
+}
+
+.spanCategory:hover {
+    background-color: paleturquoise;
+    border-radius: 5px;
+}
+
+.spanCategoryActive {
+    background-color: paleturquoise;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
